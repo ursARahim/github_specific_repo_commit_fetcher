@@ -4,7 +4,7 @@ REPOSITORY_NAME="moodle"
 REPOSITORY_OWNER="moodle"
 BRANCH_NAME="MOODLE_405_STABLE"
 
-NUMBER_OF_COMMITS_TO_SHOW=${1:-5}
+NUMBER_OF_COMMITS_TO_SHOW=${1:-10}
 
 check_requirements() {
     if ! command -v curl &> /dev/null; then
